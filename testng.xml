@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms">
+        <classes>
+            <class name="org.example.ex_15092024.CRUD.testNG.test001">
+            </class>
+
+            <class name="org.example.ex_15092024.CRUD.testNG.test002">
+            </class>
+        </classes>
+    </test>
+</suite>
