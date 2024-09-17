@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API FILES">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/BDDStyleGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/POST/BDDstyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/POST/NonBDDstyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/testNG/test001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/testNG/test002.java" afterDir="false" />
+    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG files">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/PUT/NonBDDPUTStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/test002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.put.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REAFME" beforeDir="false" afterPath="$PROJECT_DIR$/REAFME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Test001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +57,24 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.xml.executor": "Run",
     "TestNG.test001.test_get.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\ATB7xJAVAProgram\APIAutomationPrograms" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.ex_15092024.CRUD.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml">
     <configuration name="BDDstyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ex_15092024.CRUD.POST.BDDstyle" />
       <module name="APIAutomationPrograms" />
@@ -103,15 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDstyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_15092024.CRUD.GET.NonBDDstyle" />
+    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ex_15092024.CRUD.GET.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.put.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml" />
         <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.xml" />
         <item itemvalue="TestNG.test001.test_get" />
         <item itemvalue="Application.BDDstyle" />
         <item itemvalue="Application.NonBDDStyle" />
-        <item itemvalue="Application.NonBDDstyle" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726335644710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="API testNG files">
+      <option name="closed" value="true" />
+      <created>1726456772690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726456772691</updated>
+    </task>
+    <task id="LOCAL-00003" summary="API testNG files">
+      <option name="closed" value="true" />
+      <created>1726456792635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726456792635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API FILES" />
-    <option name="LAST_COMMIT_MESSAGE" value="API FILES" />
+    <MESSAGE value="API testNG files" />
+    <option name="LAST_COMMIT_MESSAGE" value="API testNG files" />
   </component>
 </project>
