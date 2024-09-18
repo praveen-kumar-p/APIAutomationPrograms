@@ -1,9 +1,10 @@
 package org.example.ex_15092024.CRUD.GET;
 
 import io.restassured.RestAssured;
+import org.testng.annotations.Test;
 
 public class BDDStyleGET {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
         // GET Request - https://api.zippopotam.us/IN/560037
         // URL
         // HEADER ?
@@ -44,27 +45,28 @@ public class BDDStyleGET {
         //  Response Body
         //  Time, Headers ,Cookies
 
-        test1();
-        test2();
-    }
+//        test1();
+//        test2();
 
+    @Test
     private static void test1() {
         RestAssured
                 .given()
-                .baseUri("https://api.zippopotam.us")
-                .basePath("/IN/582102")
+                .baseUri("https://restful-booker.herokuapp.com")
+                .basePath("/booking")
                 .when()
                 .log().all().get().
                 then()
                 .log().all().statusCode(200);
     }
 
-    private static void test2() {
-        RestAssured.given().baseUri("https://api.zippopotam.us")
-                .basePath("/IN/-1")
-                .when()
-                .log().all().get()
-                .then()
-                .log().all().statusCode(404);
-    }
+//    @Test
+//    private static void test2() {
+//        RestAssured.given().baseUri("https://restful-booker.herokuapp.com")
+//                .basePath("/booking")
+//                .when()
+//                .log().all().get()
+//                .then()
+//                .log().all().statusCode(404);
+//    }
 }

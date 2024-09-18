@@ -52,19 +52,19 @@ public class NonBDDPUTStyle {
     public void test_put_positive_tc(){
         // POST - Auth - token
 
-        String token  = "26e3aab52237f19";
-        String bookingid = "1985";
+        String token  = "4ae67e3817321bd";
+        String bookingid = "2529";
 
         String payloadPUT= "{\n" +
                 "    \"firstname\" : \"Praveen\",\n" +
                 "    \"lastname\" : \"Iyli\",\n" +
-                "    \"totalprice\" : 4018,\n" +
+                "    \"totalprice\" : 9972,\n" +
                 "    \"depositpaid\" : true,\n" +
                 "    \"bookingdates\" : {\n" +
                 "        \"checkin\" : \"2024-09-20\",\n" +
                 "        \"checkout\" : \"2024-09-20\"\n" +
                 "    },\n" +
-                "    \"additionalneeds\" : \"Breakfast\"\n" +
+                "    \"additionalneeds\" : \"Lunch\"\n" +
                 "}";
 
 
@@ -81,18 +81,6 @@ public class NonBDDPUTStyle {
         // Get Validatable response to perform validation
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

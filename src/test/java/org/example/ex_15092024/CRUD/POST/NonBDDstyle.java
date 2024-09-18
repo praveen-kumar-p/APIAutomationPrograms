@@ -5,10 +5,14 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.Test;
 
 public class NonBDDstyle {
 
-        public static void main(String[] args) {
+
+
+        @Test
+        public static void testnonbdd() {
 
             String payload = "{\n" +
                     "    \"username\" : \"admin\",\n" +
