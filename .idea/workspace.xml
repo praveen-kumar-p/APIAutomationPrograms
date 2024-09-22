@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 17-09-24">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/TestNG001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_001.xml" afterDir="false" />
+    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 21-09-24">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/Testcaseintegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/TestNG007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_groups_preprod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_groups_qa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_parameter_chrome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_parameter_firefox.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/016a55cd-80e5-4351-a30b-7a2965b9dcb6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/805b6919-eddc-4366-bee0-1bfc0c932e48-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e514d74d-25e2-465c-b188-3689c8864f08-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e9b3a446-c550-4c26-81ac-336666002962-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2d3d0f3-0194-44df-99f6-63ed48860121-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/BDDStyleGET.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/BDDStyleGET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/POST/NonBDDstyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/POST/NonBDDstyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/TestNG001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_001.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +77,30 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.GET.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.POST.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.PUT.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_001.xml.executor": "Run",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_groups.xml.executor": "Run",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_groups_preprod.xml.executor": "Run",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter.xml.executor": "Run",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_chrome.xml.executor": "Run",
+    "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_firefox.xml.executor": "Run",
+    "TestNG.NonBDDStyle.executor": "Run",
+    "TestNG.TestNG003.executor": "Run",
+    "TestNG.TestNG004.executor": "Run",
+    "TestNG.TestNG006.executor": "Run",
+    "TestNG.Testcaseintegration.test_update_PUT.executor": "Run",
     "TestNG.test001.test_get.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -74,14 +108,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\ATB7xJAVAProgram\APIAutomationPrograms" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\ATB7xJAVAProgram\APIAutomationPrograms\src\test\java\org\example\ex_21092024\testNGexample\CRUD" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.ex_15092024.CRUD.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_001.xml">
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNG002">
+    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_001.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -89,40 +126,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.GET.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.GET.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_15092024.CRUD.GET.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_15092024.CRUD.GET" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_15092024.CRUD.GET.NonBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.POST.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.POST.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.TestNG001" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.PUT.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.PUT.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.TestNG002" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Testcaseintegration.test_update_PUT" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.put.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.CRUD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.CRUD" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.CRUD.Testcaseintegration" />
+      <option name="METHOD_NAME" value="test_update_PUT" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_001.xml" />
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.PUT.xml" />
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.GET.xml" />
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.POST.xml" />
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng.put.xml" />
+        <item itemvalue="TestNG.TestNG002" />
+        <item itemvalue="TestNG.TestNG001" />
+        <item itemvalue="TestNG.NonBDDStyle" />
+        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" />
+        <item itemvalue="TestNG.Testcaseintegration.test_update_PUT" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +254,33 @@
       <option name="project" value="LOCAL" />
       <updated>1726629904572</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="API testNG 21-09-24">
+      <option name="closed" value="true" />
+      <created>1726938784306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726938784306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API FILES" />
     <MESSAGE value="API testNG files" />
     <MESSAGE value="API testNG 17-09-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="API testNG 17-09-24" />
+    <MESSAGE value="API testNG 21-09-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="API testNG 21-09-24" />
   </component>
 </project>

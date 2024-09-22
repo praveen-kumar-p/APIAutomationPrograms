@@ -9,8 +9,6 @@ import org.testng.annotations.Test;
 
 public class NonBDDstyle {
 
-
-
         @Test
         public static void testnonbdd() {
 

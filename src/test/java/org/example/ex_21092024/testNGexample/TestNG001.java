@@ -1,4 +1,5 @@
-package org.example.ex_21092024;
+package org.example.ex_21092024.testNGexample;
+
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -11,16 +12,14 @@ public class TestNG001 {
     @Severity(SeverityLevel.NORMAL)
     @Description("verify that true == true")
     @Test
-    public void testcase1(){
+    public void test01(){
         Assert.assertEquals(true, true);
-
     }
 
     @Severity(SeverityLevel.BLOCKER)
     @Description("verify that true != false")
     @Test
-    public void testcase2(){
+    public void test02(){
         Assert.assertEquals(true, false);
-
     }
 }

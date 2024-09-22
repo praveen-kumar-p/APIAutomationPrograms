@@ -3,9 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ATB7xJAVAProgram/APIAutomationPrograms">
         <classes>
-            <class name="org.example.ex_21092024.testNGexample.TestNG001">
+            <class name="org.example.ex_21092024.testNGexample.CRUD.Testcaseintegration">
             </class>
-
         </classes>
     </test>
 </suite>

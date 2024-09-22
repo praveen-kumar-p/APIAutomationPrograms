@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ATB7xJAVAProgram/APIAutomationPrograms">
+        <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="org.example.ex_21092024.testNGexample.TestNG001">
+            <class name="org.example.ex_21092024.testNGexample.TestNG007">
             </class>
 
         </classes>
