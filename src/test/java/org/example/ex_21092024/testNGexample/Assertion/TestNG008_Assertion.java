@@ -57,16 +57,17 @@ public class TestNG008_Assertion {
 
         bookingId = response.then().extract().path("bookingid");
         String firstname = response.then().extract().path("booking.firstname");
+        String lastname = response.then().extract().path("booking.lastname");
+        String checkin = response.then().extract().path("booking.bookingdates.checkin");
 //        Assert.assertNotNull(bookingId);
 //        Assert.assertEquals(firstname, "Pramod");
+//        Assert.assertEquals(lastname, "Dutta");
 
         // AssertJ Assertion
 
         assertThat(bookingId).isNotNull().isNotZero().isPositive();
-        assertThat(firstname).isEqualTo("Pramod").isEmpty();
-        String s = "";
-        String s1 = " ";
-
-
+        assertThat(firstname).isEqualTo("Pramod").isNotEmpty();
+        assertThat(lastname).isNotEqualTo("Shavi");
+        assertThat(checkin).isEqualTo("2024-01-01").isNotEmpty();
     }
 }

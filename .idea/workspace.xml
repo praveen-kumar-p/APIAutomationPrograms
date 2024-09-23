@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 22-09-24">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/Test009_Hardassertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/TestNG008_Assertion.java" afterDir="false" />
+    <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 23-09-24">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_15092024/CRUD/GET/NonBDDStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/Testcaseintegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/Testcaseintegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/TestNG008_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/TestNG008_Assertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +77,12 @@
     "TestNG.TestNG003.executor": "Run",
     "TestNG.TestNG004.executor": "Run",
     "TestNG.TestNG006.executor": "Run",
+    "TestNG.TestNG008_Assertion.executor": "Run",
     "TestNG.TestNG008_Assertion.test_post.executor": "Run",
     "TestNG.Testcaseintegration.test_update_PUT.executor": "Run",
     "TestNG.test001.test_get.executor": "Run",
+    "TestNG.verification001.test_verify.executor": "Run",
+    "TestNG.verification002.test_verify_assertj.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms",
@@ -99,38 +100,11 @@
       <recent name="C:\Users\HP\IdeaProjects\ATB7xJAVAProgram\APIAutomationPrograms\src\test\java\org\example\ex_21092024\testNGexample\CRUD" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ex_22092024" />
       <recent name="org.example.ex_15092024.CRUD.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG008_Assertion.test_post">
-    <configuration name="C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test009_Hardassertion.hardassert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.Assertion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.Assertion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.Test009_Hardassertion" />
-      <option name="METHOD_NAME" value="hardassert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.verification002.test_verify_assertj">
     <configuration name="Test009_Hardassertion.softassert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
@@ -143,6 +117,23 @@
       <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.Test009_Hardassertion" />
       <option name="METHOD_NAME" value="softassert" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG008_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.Assertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.Assertion" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.TestNG008_Assertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,17 +158,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testcaseintegration.test_update_PUT" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="verification001.test_verify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.CRUD.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.CRUD" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.CRUD.Testcaseintegration" />
-      <option name="METHOD_NAME" value="test_update_PUT" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification001" />
+      <option name="METHOD_NAME" value="test_verify" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verification002.test_verify_assertj" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex_22092024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification002" />
+      <option name="METHOD_NAME" value="test_verify_assertj" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.verification002.test_verify_assertj" />
+        <item itemvalue="TestNG.verification001.test_verify" />
         <item itemvalue="TestNG.TestNG008_Assertion.test_post" />
+        <item itemvalue="TestNG.TestNG008_Assertion" />
         <item itemvalue="TestNG.Test009_Hardassertion.softassert" />
-        <item itemvalue="TestNG.Test009_Hardassertion.hardassert" />
-        <item itemvalue="TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/src/test/java/org/example/ex_21092024/testNGexample/CRUD/testng.CURD.xml" />
-        <item itemvalue="TestNG.Testcaseintegration.test_update_PUT" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727025463227</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="API testNG 23-09-24">
+      <option name="closed" value="true" />
+      <created>1727062420151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727062420152</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +305,7 @@
     <MESSAGE value="API testNG 17-09-24" />
     <MESSAGE value="API testNG 21-09-24" />
     <MESSAGE value="API testNG 22-09-24" />
-    <option name="LAST_COMMIT_MESSAGE" value="API testNG 22-09-24" />
+    <MESSAGE value="API testNG 23-09-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="API testNG 23-09-24" />
   </component>
 </project>
