@@ -119,10 +119,12 @@ public class Testcaseintegration {
 
     @Test(priority = 2)
     public void test_update_GET(){
-        requestSpecification = RestAssured.given();
-        requestSpecification.baseUri("https://restful-booker.herokuapp.com");
-        requestSpecification.basePath("/booking");
+        RequestSpecification r = RestAssured.given();
+        r.baseUri("https://restful-booker.herokuapp.com/");
+        r.basePath("/booking");
+        r.then().statusCode(200);
         System.out.println(bookingId);
+
     }
 
     @Test(priority = 3)

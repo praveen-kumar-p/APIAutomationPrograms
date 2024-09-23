@@ -18,6 +18,8 @@ public class NonBDDStyle {
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri("https://restful-booker.herokuapp.com");
         requestSpecification.basePath("/booking");
+
+
     }
 
 
