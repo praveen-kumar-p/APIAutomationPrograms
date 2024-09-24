@@ -1,4 +1,4 @@
-package org.example.ex_22092024;
+package org.example.ex_22092024.verification;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

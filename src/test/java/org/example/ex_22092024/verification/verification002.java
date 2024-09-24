@@ -1,10 +1,8 @@
-package org.example.ex_22092024;
+package org.example.ex_22092024.verification;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,6 +12,8 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.*;
 
 public class verification002 {
+
+
     @Test
     public void test_verify_assertj(){
 
@@ -26,9 +26,10 @@ public class verification002 {
 
         LocalDate date = LocalDate.now();
         System.out.println(date);
-        assertThat(date).isAfterOrEqualTo(LocalDate.of(2021, 1, 1));
-        assertThat(date).isAfterOrEqualTo(LocalDate.of(2023, 12, 31));
-        assertThat(date).isBetween(LocalDate.of(2021, 1, 1),
+        assertThat(date)
+                .isAfterOrEqualTo(LocalDate.of(2021, 1, 1));
+                assertThat(date).isBeforeOrEqualTo(LocalDate.of(2023, 12, 31));
+                assertThat(date).isBetween(LocalDate.of(2021, 1, 01),
         LocalDate.of(2023, 12, 31));
 
         File file = new File("Testdata.json");
@@ -37,8 +38,7 @@ public class verification002 {
         Map<String, Integer> ages = new HashMap<>();
         ages.put("Praveen",  28);
         ages.put("Prakash",  50);
-        ages.put("Shantha",  49);
 
-        assertThat(ages).hasSize(1).containsEntry("Praveen", 28);
+        assertThat(ages).hasSize(2).containsEntry("Praveen", 28).doesNotContainValue(60);
     }
 }

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 23-09-24">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/Jsonpath/JSONPATH002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/Jsonpath/JSONPath001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/pojos/pojo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/pojos/pojohashmap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/TestNG008_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_21092024/testNGexample/Assertion/TestNG008_Assertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification/verification001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/verification/verification002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
     "Application.NonBDDstyle.executor": "Run",
     "Application.NonBSSstyleGET.executor": "Run",
     "Application.Test001.executor": "Run",
+    "Application.pojohashmap.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,6 +73,7 @@
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_chrome.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_firefox.xml.executor": "Run",
+    "TestNG.JSONPath001.test_post.executor": "Run",
     "TestNG.NonBDDStyle.executor": "Run",
     "TestNG.Test009_Hardassertion.hardassert.executor": "Run",
     "TestNG.Test009_Hardassertion.softassert.executor": "Run",
@@ -104,36 +109,32 @@
       <recent name="org.example.ex_15092024.CRUD.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.verification002.test_verify_assertj">
-    <configuration name="Test009_Hardassertion.softassert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.pojohashmap">
+    <configuration name="pojohashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.pojos.pojohashmap" />
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.Assertion.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.pojos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.Assertion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.Test009_Hardassertion" />
-      <option name="METHOD_NAME" value="softassert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG008_Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSONPath001.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.Assertion.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.Assertion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.TestNG008_Assertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.Jsonpath.JSONPath001" />
+      <option name="METHOD_NAME" value="test_post" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,12 +163,12 @@
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification001" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification.verification001" />
       <option name="METHOD_NAME" value="test_verify" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -180,12 +181,12 @@
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification002" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification.verification002" />
       <option name="METHOD_NAME" value="test_verify_assertj" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pojohashmap" />
+        <item itemvalue="TestNG.JSONPath001.test_post" />
         <item itemvalue="TestNG.verification002.test_verify_assertj" />
         <item itemvalue="TestNG.verification001.test_verify" />
         <item itemvalue="TestNG.TestNG008_Assertion.test_post" />
-        <item itemvalue="TestNG.TestNG008_Assertion" />
-        <item itemvalue="TestNG.Test009_Hardassertion.softassert" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727062420152</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="API testNG 23-09-24">
+      <option name="closed" value="true" />
+      <created>1727111184346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727111184346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
