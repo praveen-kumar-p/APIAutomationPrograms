@@ -1,6 +1,4 @@
-package org.example.ex_22092024.GSON;
-
-import com.sun.org.apache.xml.internal.security.algorithms.implementations.IntegrityHmac;
+package org.example.ex_22092024.GSONPUT;
 
 public class booking {
 
@@ -11,11 +9,11 @@ public class booking {
     private bookingdates bookingdates;
 
 
-    public org.example.ex_22092024.GSON.bookingdates getBookingdates() {
+    public org.example.ex_22092024.GSONPUT.bookingdates getBookingdates() {
         return bookingdates;
     }
 
-    public void setBookingdates(org.example.ex_22092024.GSON.bookingdates bookingdates) {
+    public void setBookingdates(org.example.ex_22092024.GSONPUT.bookingdates bookingdates) {
         this.bookingdates = bookingdates;
     }
 

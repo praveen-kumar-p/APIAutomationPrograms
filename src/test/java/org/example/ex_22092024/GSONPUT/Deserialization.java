@@ -1,4 +1,4 @@
-package org.example.ex_22092024.GSON;
+package org.example.ex_22092024.GSONPUT;
 
 import com.google.gson.Gson;
 import io.qameta.allure.Description;
@@ -7,31 +7,20 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.Test;
 
-import java.beans.Transient;
-
-public class Serialization {
-
-    //{
-    //    "firstname" : "Jim",
-    //    "lastname" : "Brown",
-    //    "totalprice" : 111,
-    //    "depositpaid" : true,
-    //    "bookingdates" : {
-    //        "checkin" : "2018-01-01",
-    //        "checkout" : "2019-01-01"
-    //    },
-    //    "additionalneeds" : "Breakfast"
-    //}
+public class Deserialization {
 
     RequestSpecification r = RestAssured.given();
-    Response response= r.when().post();
+    Response response;
 
-    ValidatableResponse validatableResponse = response.then();
+    ValidatableResponse validatableResponse;
+
+    // Serialization
 
     @Description("TC#1 - verify that create booking is working with valid payload")
-    @Transient
-    public void testNonBDDstylepostpositive(){
+    @Test
+    public void testNonBDDstylepostpositive() {
 
         booking booking = new booking();
         booking.setFirstname("James");
@@ -52,18 +41,24 @@ public class Serialization {
         String jsonstring = gson.toJson(booking);
         System.out.println(jsonstring);
 
-//        String base_url = "https://restful-booker.herokuapp.com";
-//        String base_path = "/auth";
-//        r.contentType(ContentType.JSON).log().all();
-////        r.body(payload);
-//
-//        response = r.when().log().all().post();
-//        String responseString = response.asString();
-//        System.out.println(responseString);
-//
-//        ValidatableResponse validatableResponse = response.then();
-//        validatableResponse.statusCode(200);
+        String base_url = "https://restful-booker.herokuapp.com";
+        String base_path = "/booking";
 
+        r.baseUri(base_url);
+        r.basePath(base_path);
+        r.contentType(ContentType.JSON).log().all();
+        r.body(jsonstring);
+
+        response = r.when().log().all().post();
+        String responseString = response.asString();
+        System.out.println(responseString);
+
+        ValidatableResponse validatableResponse = response.then().log().all();
+        validatableResponse.statusCode(200);
+
+        bookingresponse bookingresponse = gson.fromJson(responseString, bookingresponse.class);
+        System.out.println(bookingresponse.getBookingid());
+        System.out.println();
 
     }
 }

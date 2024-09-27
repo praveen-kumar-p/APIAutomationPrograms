@@ -1,4 +1,4 @@
-package org.example.ex_22092024.GSON;
+package org.example.ex_22092024.GSONPUT;
 
 public class bookingdates {
 

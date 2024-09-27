@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ab45be-d6f2-404e-85d8-f7dacd0fb737" name="Changes" comment="API testNG 24-09-24">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/Serialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPOST/SERIALPOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPOST/postbooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPUT/Deserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPUT/bookingresponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/pojos/pojohashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/pojos/pojohashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPUT/Serialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPUT/booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSON/bookingdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex_22092024/GSONPUT/bookingdates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +74,16 @@
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_chrome.xml.executor": "Run",
     "TestNG.C:/Users/HP/IdeaProjects/ATB7xJAVAProgram/APIAutomationPrograms/testng_parameter_firefox.xml.executor": "Run",
+    "TestNG.Deserialization.executor": "Run",
+    "TestNG.Deserialization.testNonBDDstylepostpositive (1).executor": "Run",
+    "TestNG.Deserialization.testNonBDDstylepostpositive (2).executor": "Debug",
+    "TestNG.Deserialization.testNonBDDstylepostpositive.executor": "Run",
     "TestNG.JSONPath001.test_post.executor": "Run",
     "TestNG.NonBDDStyle.executor": "Run",
+    "TestNG.Serialization.executor": "Run",
+    "TestNG.Serialization.testNonBDDstylepostpositive.executor": "Run",
     "TestNG.Test009_Hardassertion.hardassert.executor": "Run",
-    "TestNG.Test009_Hardassertion.softassert.executor": "Run",
+    "TestNG.Test009_Hardassertion.softassert.executor": "Debug",
     "TestNG.TestNG001.executor": "Run",
     "TestNG.TestNG002.executor": "Run",
     "TestNG.TestNG003.executor": "Run",
@@ -108,31 +116,35 @@
       <recent name="org.example.ex_15092024.CRUD.POST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pojohashmap">
-    <configuration name="pojohashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.pojos.pojohashmap" />
+  <component name="RunManager" selected="TestNG.Serialization.testNonBDDstylepostpositive">
+    <configuration name="Deserialization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.pojos.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.GSONPUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024.GSONPUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.GSONPUT.Deserialization" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONPath001.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Deserialization.testNonBDDstylepostpositive (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.GSONPUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.Jsonpath.JSONPath001" />
-      <option name="METHOD_NAME" value="test_post" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024.GSONPUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.GSONPUT.Deserialization" />
+      <option name="METHOD_NAME" value="testNonBDDstylepostpositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,17 +152,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG008_Assertion.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Deserialization.testNonBDDstylepostpositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_21092024.testNGexample.Assertion.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.GSONPUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_21092024.testNGexample.Assertion" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_21092024.testNGexample.Assertion.TestNG008_Assertion" />
-      <option name="METHOD_NAME" value="test_post" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024.GSONPUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.GSONPUT.Deserialization" />
+      <option name="METHOD_NAME" value="testNonBDDstylepostpositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,35 +170,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verification001.test_verify" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Serialization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.GSONPUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification.verification001" />
-      <option name="METHOD_NAME" value="test_verify" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024.GSONPUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.GSONPUT.Serialization" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verification002.test_verify_assertj" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Serialization.testNonBDDstylepostpositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ex_22092024.Jsonpath.*" />
+          <option name="PATTERN" value="org.example.ex_22092024.GSONPUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ex_22092024" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.verification.verification002" />
-      <option name="METHOD_NAME" value="test_verify_assertj" />
+      <option name="PACKAGE_NAME" value="org.example.ex_22092024.GSONPUT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex_22092024.GSONPUT.Serialization" />
+      <option name="METHOD_NAME" value="testNonBDDstylepostpositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pojohashmap" />
-        <item itemvalue="TestNG.JSONPath001.test_post" />
-        <item itemvalue="TestNG.verification002.test_verify_assertj" />
-        <item itemvalue="TestNG.verification001.test_verify" />
-        <item itemvalue="TestNG.TestNG008_Assertion.test_post" />
+        <item itemvalue="TestNG.Serialization.testNonBDDstylepostpositive" />
+        <item itemvalue="TestNG.Deserialization.testNonBDDstylepostpositive" />
+        <item itemvalue="TestNG.Deserialization.testNonBDDstylepostpositive (1)" />
+        <item itemvalue="TestNG.Deserialization" />
+        <item itemvalue="TestNG.Serialization" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727149270498</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="API testNG 24-09-24">
+      <option name="closed" value="true" />
+      <created>1727198593019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727198593019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
